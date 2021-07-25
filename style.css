@@ -117,3 +117,43 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media (max-width: 768px) {
+  header {
+    height: 45vh;
+  }
+
+  h1 {
+    font-size: 3rem;
+    width: 80%;
+  }
+
+  main {
+    flex-direction: column;
+    height: 55vh;
+  }
+  .between {
+    position: static;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  input.guess {
+    margin-top: 6rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+    padding-left: 3rem;
+  }
+
+  .message {
+    padding-top: 2rem;
+  }
+}
